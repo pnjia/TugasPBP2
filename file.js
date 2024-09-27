@@ -24,6 +24,6 @@ console.log(`suhu ${suhuCelcius} celcius sama dengan ${suhuFarenheit} farenheit`
 const hargaTelur = 28000
 const jumlahTelur = prompt("masukkan jumlah telur/kg: ")
 const totalHarusDiBayar = hargaTelur * jumlahTelur
-const bayar = prompt("Masukkan uang anda: ")
+const bayar = prompt("Masukkan uang anda(Rp): ")
 const kembalian = bayar - totalHarusDiBayar
-console.log(kembalian)
+console.log(`Kembaliannya adalah Rp${kembalian}`)
