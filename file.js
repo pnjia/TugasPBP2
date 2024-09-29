@@ -26,4 +26,7 @@ const jumlahTelur = prompt("masukkan jumlah telur/kg: ")
 const totalHarusDiBayar = hargaTelur * jumlahTelur
 const bayar = prompt("Masukkan uang anda(Rp): ")
 const kembalian = bayar - totalHarusDiBayar
-console.log(`Kembaliannya adalah Rp${kembalian}`)
+console.log(`Jumlah telur(kg): ${jumlahTelur} kilo`)
+console.log(`Total bayar: ${totalHarusBayar}`)
+console.log(`Uang yang dibayarkan: ${bayar} `)
+console.log(`Uang kembalian: ${kembalian}`)
